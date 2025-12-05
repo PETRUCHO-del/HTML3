@@ -1,0 +1,76 @@
+body {
+margin: 0;
+background: linear-gradient(90deg, #ffe5f0, #ffd1dc);
+font-family: Arial;
+}
+
+
+header {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+position: relative;
+}
+
+
+.title {
+font-size: 48px;
+color: #92ff4f5f;
+text-shadow: 4px 4px 6px #73003e;
+transform: rotate(-5deg);
+font-weight: bold;
+}
+
+
+.wolf {
+width: 230px;
+position: absolute;
+right: 30px;
+top: 10px;
+}
+
+
+.wrapper {
+display: flex;
+padding: 20px;
+}
+
+
+.menu {
+display: flex;
+flex-direction: column;
+gap: 15px;
+width: 170px;
+}
+
+
+.menu button {
+padding: 15px;
+background: #a99aff72;
+border: 2px solid #a80052;
+border-radius: 10px;
+font-size: 18px;
+cursor: pointer;
+box-shadow: 3px 3px 5px #5e0030;
+color: #3a0020;
+}
+
+
+.content {
+flex: 1;
+background: #ffe5e39a;
+margin-left: 40px;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 4px 4px 6px #5e0030;
+border: 2px solid #a80052;
+color: #3a0020;
+}
+
+
+footer {
+padding: 20px;
+font-size: 14px;
+color: #3a0020;
+}
